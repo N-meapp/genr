@@ -1430,3 +1430,45 @@ body {
 
   
 
+.loadcalc-load{
+  border:2px solid #dee2e6;
+  background: white;
+  font-weight: bold;
+  transition: all 1s ease;
+}
+
+.total-load{
+  border:2px solid #747474;
+  background: white;
+  font-weight: bold;
+}
+
+
+.non-input{
+  border: none !important;
+  background: none;
+  color: #9b9b9b;
+  /* border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(207, 207, 207); */
+}
+
+.non-input:focus{
+  border: none !important;
+}
+
+.non-input::placeholder {
+  color: rgb(198, 201, 204);
+  opacity: 1; /* Firefox */
+}
+
+.non-input::-ms-input-placeholder { /* Edge 12-18 */
+  color: red;
+}
+
+.applience-closing{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
